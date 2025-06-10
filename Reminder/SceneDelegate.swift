@@ -24,6 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window.rootViewController = navigation
         self.window = window
+        print("teste")
         window.makeKeyAndVisible()
     }
 
