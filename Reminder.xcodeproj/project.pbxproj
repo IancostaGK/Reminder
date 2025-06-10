@@ -48,16 +48,6 @@
 			path = Reminder;
 			sourceTree = "<group>";
 		};
-		3DA6B0722DF79922006AD0D3 /* ReminderTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ReminderTests;
-			sourceTree = "<group>";
-		};
-		3DA6B07C2DF79922006AD0D3 /* ReminderUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ReminderUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				3DA6B05B2DF79921006AD0D3 /* Reminder */,
-				3DA6B0722DF79922006AD0D3 /* ReminderTests */,
-				3DA6B07C2DF79922006AD0D3 /* ReminderUITests */,
 				3DA6B05A2DF79921006AD0D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				3DA6B0712DF79922006AD0D3 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				3DA6B0722DF79922006AD0D3 /* ReminderTests */,
-			);
 			name = ReminderTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				3DA6B07B2DF79922006AD0D3 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				3DA6B07C2DF79922006AD0D3 /* ReminderUITests */,
 			);
 			name = ReminderUITests;
 			packageProductDependencies = (
@@ -293,8 +275,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Reminder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,8 +302,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Reminder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
